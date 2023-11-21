@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <button id="viewHighScores">View High Scores</button>
+        <div id="timer">Time Left: <span id="timeLeft">60</span> seconds</div>
+    </header>
+    <main class="container">
+        <div id="startScreen" class="visible">
+            <h1>JAVASCRIPT QUIZ!</h1>
+            <button id="startButton">Start Quiz</button>
+        </div>
+        <div id="quizScreen" class="hidden">
+            <h2 id="question"></h2>
+            <div id="choices" class="choices">
+                <ol>
+                    <li><button id="choice-1"></button></li>
+                    <li><button id="choice-2"></button></li>
+                    <li><button id="choice-3"></button></li>
+                    <li><button id="choice-4"></button></li>
+                </ol>
+            </div>
+        </div>
+        <div id="endScreen" class="hidden">
+            <h2>Your final score is <span id="finalScore"></span></h2>
+            <input type="text" id="initials" placeholder="Enter your initials here" />
+            <button id="submitButton">Submit Score</button>
+        </div>
+        <div id="highScores" class="hidden">
+            <h2>High Scores</h2>
+            <ul id="highScoresList"></ul>
+            <button id="clearScores">Clear High Scores</button>
+            <button id="backToStart">Go Back to Start</button>
+        </div>
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

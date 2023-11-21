@@ -1,0 +1,92 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#timer {
+    text-align: right;
+}
+
+#choices {
+    text-align: center;
+}
+
+#choices button {
+    width: 400px;
+    margin: 5px;
+}
+
+#timer {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/CodeQuizBG.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+ol {
+    display: inline-block;
+    align-items: center;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #3498db;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+.container {
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border-top-style: ridge;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
